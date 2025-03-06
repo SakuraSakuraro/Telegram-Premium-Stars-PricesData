@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prices for Telegram Premium and Stars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Prices for Telegram Premium and Stars</h1>
+        <form id="priceForm">
+            <label for="type">Price for:</label>
+            <select id="type" name="type">
+                <option value="premium">Premium</option>
+                <option value="stars">Stars</option>
+            </select>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <!-- Опции будут заполнены через JavaScript -->
+            </select>
+
+            <button type="submit">Show prices</button>
+        </form>
+
+        <div id="priceTable"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
